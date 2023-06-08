@@ -6,6 +6,10 @@
         a = txta.Text
         b = Txtb.Text
 
-        
+        If a < b Then
+            lblsalida.Text = "El mayor es " & b
+        Else
+            lblsalida.Text = "El mayor es " & a
+        End If
     End Sub
 End Class
